@@ -11,6 +11,6 @@ script:
 
 after_success:
   - repo=https://$GITHUB_TOKEN@github.com/ac-voyage/ac-voyage.github.io.git
-  - sed -i "s/git@github.com:ac-voyage\/ac-voyage.github.io.git/$repo/g" _config.yml
+  - sed -i "s/git@github.com:ac-voyage\/ac-voyage.github.io.git/https:\/\/$GITHUB_TOKEN@github.com\/ac-voyage\/ac-voyage.github.io.git/g" _config.yml
   - git clone $repo .deploy_git
   - hexo d
