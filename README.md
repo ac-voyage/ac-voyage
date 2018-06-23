@@ -1,5 +1,5 @@
 # ac-voyage.github.io
-![](https://travis-ci.com/ac-voyage/ac-voyage.svg?branch=master)
+[![Build Status](https://travis-ci.com/ac-voyage/ac-voyage.svg?branch=master)](https://travis-ci.com/ac-voyage/ac-voyage)
 
 Source code of https://ac-voyage.github.io 
 
