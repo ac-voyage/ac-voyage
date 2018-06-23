@@ -1,3 +1,14 @@
 language: node_js
+node_js:
+  - "lts/*"
 
+install:
+  - npm i -g hexo-cli
+  - npm i
 
+script:
+  - hexo g
+
+after_success:
+  - sed -i "s/git@github.com:ac-voyage\/ac-voyage.github.io.git/https:\/\/$GITHUB_TOKEN@github.com\/ac-voyage\/ac-voyage.github.io.git/g"
+  - hexo d
