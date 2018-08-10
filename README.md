@@ -1,5 +1,4 @@
-# AC-Voyage
-[![Build Status](https://travis-ci.com/ac-voyage/ac-voyage.svg?branch=master)](https://travis-ci.com/ac-voyage/ac-voyage)
+# AC-Voyage [![Build Status](https://travis-ci.com/ac-voyage/ac-voyage.svg?branch=master)](https://travis-ci.com/ac-voyage/ac-voyage)
 
 
 ``` cpp{12}
