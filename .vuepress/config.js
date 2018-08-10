@@ -5,8 +5,9 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Library', link: '/library' },
-            { text: 'Templates', link: '/templates' },
+            { text: 'Library', link: '/library/' },
+            { text: 'Templates', link: '/templates/' },
+            { text: 'Editorials', link: '/editorials/' },
         ],
         lastUpdated: 'Last Updated',
         repo: 'ac-voyage/ac-voyage',
