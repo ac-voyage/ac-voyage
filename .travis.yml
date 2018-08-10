@@ -3,14 +3,14 @@ node_js:
   - "lts/*"
 
 install:
-  - npm i -g hexo-cli
-  - npm i
+  - yarn
 
 script:
-  - hexo g
+  - yarn build
 
 after_success:
-  - repo=https://$GITHUB_TOKEN@github.com/ac-voyage/ac-voyage.github.io.git
-  - sed -i "s/git@github.com:ac-voyage\/ac-voyage.github.io.git/https:\/\/$GITHUB_TOKEN@github.com\/ac-voyage\/ac-voyage.github.io.git/g" _config.yml
-  - git clone $repo .deploy_git
-  - hexo d
+  - GITHUB_TOKEN=$GITHUB_TOKEN ./deploy.sh
+
+branches:
+  only:
+    - master
