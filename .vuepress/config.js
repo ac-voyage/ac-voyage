@@ -9,6 +9,16 @@ module.exports = {
             { text: 'Templates', link: '/templates/' },
             { text: 'Editorials', link: '/editorials/' },
         ],
+        sidebar: {
+            '/library/': [
+                {
+                    title: 'Math',
+                    children: [
+                        [ '/library/math/mobius', 'Mobius' ],
+                    ],
+                },
+            ],
+        },
         lastUpdated: 'Last Updated',
         repo: 'ac-voyage/ac-voyage',
         editLinks: true,
