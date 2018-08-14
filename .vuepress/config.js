@@ -12,6 +12,12 @@ module.exports = {
         sidebar: {
             '/library/': [
                 {
+                    title: 'Data Structure',
+                    children: [
+                        [ '/library/data-structure/persistent-segment-tree.md', '可持久化线段树' ],
+                    ],
+                },
+                {
                     title: 'Math',
                     children: [
                         [ '/library/math/mobius', 'Möbius' ],
