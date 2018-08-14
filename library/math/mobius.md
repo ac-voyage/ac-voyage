@@ -75,3 +75,9 @@ g(i) = \sum_{d=1}^{\left\lfloor\frac{n}{i}\right\rfloor}{f(d\cdot{i})\mu(d)}
 $$
 
 ## 应用
+
+### 其他技巧
+
+如果 $d(n)$ 为 $n$ 的约数个数，则
+
+$$d(nm) = \sum_{i|n}\sum_{j|m}[\gcd(i,j) = 1]$$
