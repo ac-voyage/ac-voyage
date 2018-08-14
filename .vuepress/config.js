@@ -14,7 +14,7 @@ module.exports = {
                 {
                     title: 'Math',
                     children: [
-                        [ '/library/math/mobius', 'Mobius' ],
+                        [ '/library/math/mobius', 'Möbius' ],
                     ],
                 },
             ],
