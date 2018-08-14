@@ -25,6 +25,8 @@ $$\mu(n) = \left\{
 
 $$\mu(a)\mu(b) = \mu(a\cdot{b}), \quad a \bot b$$
 
+其中 $a \bot b$ 表示 $\gcd(a,b) = 1$，即 $a, b$ 互质.
+
 #### 性质二
 
 $$\sum_{d|n}{\mu(d)} = [n = 1]$$
