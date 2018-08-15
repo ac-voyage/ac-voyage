@@ -14,7 +14,13 @@ module.exports = {
                 {
                     title: 'Data Structure',
                     children: [
-                        [ '/library/data-structure/persistent-segment-tree.md', '可持久化线段树' ],
+                        [ '/library/data-structure/persistent-segment-tree', '可持久化线段树' ],
+                    ],
+                },
+                {
+                    title: 'Dynamic Programming',
+                    children: [
+                        [ '/library/dynamic-programming/bitmasking', '状压 dp' ],
                     ],
                 },
                 {
