@@ -12,9 +12,9 @@ module.exports = {
         sidebar: {
             '/library/': [
                 {
-                    title: 'Data Structure',
+                    title: 'Math',
                     children: [
-                        [ '/library/data-structure/persistent-segment-tree', '可持久化线段树' ],
+                        [ '/library/math/mobius', 'Möbius' ],
                     ],
                 },
                 {
@@ -24,9 +24,9 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Math',
+                    title: 'Data Structure',
                     children: [
-                        [ '/library/math/mobius', 'Möbius' ],
+                        [ '/library/data-structure/persistent-segment-tree', '可持久化线段树' ],
                     ],
                 },
             ],
