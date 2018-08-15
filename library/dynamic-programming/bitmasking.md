@@ -21,3 +21,15 @@ for (unsigned t = s ; t ; t = (t - 1) & s)
     /* do something on t */
 }
 ```
+
+### 枚举状态 `f` 减去状态 `s` 的集合的每一位
+
+假设全集状态为 `u`，且 `s` 是 `f` 的一个子集.
+
+```cpp
+for (unsigned t = (f ^ s) & u ; t ; t &= (t - 1))
+{
+    unsigned bit = t & -t;
+    /* do something on bit */
+}
+```
