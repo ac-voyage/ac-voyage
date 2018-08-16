@@ -71,6 +71,25 @@ $$f(n)
 = \sum_{d|n}{\mu(d)F\left({n \over d}\right)}
 = \sum_{d|n}{\mu\left(\frac{n}{d}\right)F(d)}$$
 
+### 证明
+
+$$
+\sum_{d|n}{\mu(d)F\left({n \over d}\right)}
+=
+\sum_{d|n}{\left[\mu(d)\sum_{i|\frac{n}{d}}{f(i)}\right]}
+$$
+
+其中 $d$ 是 $n$ 的因子，$i$ 是 $n$ 除 $d$ 以外的因子，
+于是上式也等于
+
+$$
+\sum_{d|n}{\left[f(d)\sum_{i|\frac{n}{d}}{\mu(i)}\right]}
+\xrightarrow{\text{性质2}}
+f(n)
+$$
+
+由性质2，当且仅当 $n/d = 1$ 时关于 $\mu$ 的和式不为零.
+
 ### 另一种表述
 
 $$
