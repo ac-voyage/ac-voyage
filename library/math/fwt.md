@@ -8,14 +8,17 @@
 
 $$C[i] = \sum_{x \oplus y \, = \, i}{A[x] \cdot B[y]}$$
 
-记为
+其中 $\oplus$ 为位运算 $\operatorname{and}, \operatorname{or}, \operatorname{xor}$ 中的一个 ，记为
 
 $$C = A * B$$
 
-和 FFT 类似，为了解决这个问题，构造一个变换 FWT 出来使得
+接下来 $+$ 表示算术加法，$\cdot$ 表示算术乘法.
+如果运算符两边是数组，则表示对应项做运算.
+
+和 FFT 类似，为了解决这个问题，构造一个变换 $\mathcal{F}$ 出来使得
 
 $$
 C = A * B
 \Longleftrightarrow
-FWT(C) = FWT(A) \cdot FWT(B)
+\mathcal{F}\{C\} = \mathcal{F}\{A\} \cdot \mathcal{F}\{B\}
 $$
