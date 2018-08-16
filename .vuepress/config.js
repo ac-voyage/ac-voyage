@@ -14,6 +14,7 @@ module.exports = {
                 {
                     title: 'Math',
                     children: [
+                        [ '/library/math/inclusion-exclusion', '容斥原理' ],
                         [ '/library/math/mobius', 'Möbius' ],
                     ],
                 },
