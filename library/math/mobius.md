@@ -67,17 +67,23 @@ $$F(n) = \sum_{d|n}{f(d)}$$
 
 那么
 
-$$f(n) = \sum_{d|n}{\mu(d)F\left({n \over d}\right)}$$
+$$f(n)
+= \sum_{d|n}{\mu(d)F\left({n \over d}\right)}
+= \sum_{d|n}{\mu\left(\frac{n}{d}\right)F(d)}$$
 
-或
+### 另一种表述
 
-$$f(n) = \sum_{n|d}{\mu\left(\frac{d}{n}\right)F(d)}$$
+$$
+F(n) = \sum_{n|d}{f(d)}
+\Rightarrow
+f(n) = \sum_{n|d}{\mu\left(d \over n\right)F(d)}
+$$
 
-### 变形
+#### 变形
 
 $$f(i) = \sum_{d=1}^{\left\lfloor\frac{n}{i}\right\rfloor}{g(d\cdot{}i)}
 \Rightarrow
-g(i) = \sum_{d=1}^{\left\lfloor\frac{n}{i}\right\rfloor}{f(d\cdot{i})\mu(d)}
+g(i) = \sum_{d=1}^{\left\lfloor\frac{n}{i}\right\rfloor}{\mu(d)f(d\cdot{i})}
 $$
 
 ## 应用
