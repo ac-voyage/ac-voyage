@@ -6,11 +6,5 @@
 $$
 \left|\bigcup_{i=1}^n{A_i}\right|
 =
-\sum_{
-    \phi \ne J \subseteq \{1,2,\dots,n\}
-}
-{
-    (-1)^{ |J| - 1 }
-    \left|\bigcap_{j \in J}{A_j}\right|
-}
+\sum_{\phi \ne J \subseteq \{1,2,\dots,n\}}{(-1)^{ |J| - 1 }\left|\bigcap_{j \in J}{A_j}\right| }
 $$
