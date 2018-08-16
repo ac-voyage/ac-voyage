@@ -84,7 +84,7 @@ $$
 
 $$
 \sum_{d|n}{\left[f(d)\sum_{i|\frac{n}{d}}{\mu(i)}\right]}
-\overset{2}{=}
+\overset{\text{性质2}}{=}
 f(n)
 $$
 
