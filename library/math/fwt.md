@@ -88,7 +88,7 @@ void FWT(int a[],int n)
                 //and:a[i+j]=x+y;  
                 //or:a[i+j+d]=x+y;  
             }  
-}  
+}
 
 void UFWT(int a[],int n)  
 {  
@@ -102,7 +102,7 @@ void UFWT(int a[],int n)
                 //and:a[i+j]=x-y;  
                 //or:a[i+j+d]=y-x;  
             }  
-}  
+}
 void solve(int a[],int b[],int n)  
 {  
     FWT(a,n);  
