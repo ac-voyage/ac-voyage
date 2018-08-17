@@ -31,6 +31,12 @@ module.exports = {
                         [ '/library/data-structure/persistent-segment-tree', '可持久化线段树' ],
                     ],
                 },
+                {
+                    title: 'Graph',
+                    children: [
+                        [ '/library/graph/shortest-path', '最短路' ],
+                    ],
+                },
             ],
         },
         lastUpdated: 'Last Updated',
