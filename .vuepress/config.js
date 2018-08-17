@@ -38,6 +38,14 @@ module.exports = {
                     ],
                 },
             ],
+            '/editorials/': [
+                {
+                    title: 'bzoj',
+                    children: [
+                        [ '/editorials/bzoj/vol-01/', 'vol-01' ],
+                    ],
+                },
+            ],
         },
         lastUpdated: 'Last Updated',
         repo: 'ac-voyage/ac-voyage',
