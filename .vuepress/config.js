@@ -42,7 +42,7 @@ module.exports = {
                 {
                     title: 'bzoj',
                     children: [
-                        [ '/editorials/bzoj/vol-01/', 'vol-01' ],
+                        [ '/editorials/bzoj/vol-01/', 'Volume 01' ],
                     ],
                 },
             ],
