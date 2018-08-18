@@ -15,6 +15,7 @@ module.exports = {
                     title: 'Math',
                     children: [
                         [ '/library/math/combinatorics/inclusion-exclusion', '容斥原理' ],
+                        [ '/library/math/combinatorics/burnside-polya', 'Pólya 计数定理' ],
                         [ '/library/math/number-theory/mobius', 'Möbius' ],
                         [ '/library/math/fwt', '快速沃尔什变换' ],
                     ],
