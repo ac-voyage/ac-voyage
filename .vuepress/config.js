@@ -14,8 +14,8 @@ module.exports = {
                 {
                     title: 'Math',
                     children: [
-                        [ '/library/math/inclusion-exclusion', '容斥原理' ],
-                        [ '/library/math/mobius', 'Möbius' ],
+                        [ '/library/math/combinatorics/inclusion-exclusion', '容斥原理' ],
+                        [ '/library/math/number-theory/mobius', 'Möbius' ],
                         [ '/library/math/fwt', '快速沃尔什变换' ],
                     ],
                 },
