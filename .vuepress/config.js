@@ -35,6 +35,7 @@ module.exports = {
                     title: 'Graph',
                     children: [
                         [ '/library/graph/shortest-path', '最短路' ],
+                        [ '/library/graph/kirchhoffs-theorem', '基尔霍夫矩阵树定理' ],
                     ],
                 },
             ],
