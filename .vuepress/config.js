@@ -10,8 +10,10 @@ module.exports = {
             { text: 'Editorials', link: '/editorials/' },
         ],
         sidebar: {
-            '/library/graph/tree/': [
+            '/library/graph/': [
                 [ '/library/graph/tree/prufer', 'Prüfer 序列' ],
+                [ '/library/graph/kirchhoffs-theorem', '基尔霍夫矩阵树' ],
+                [ '/library/graph/shortest-path', '最短路' ],
             ],
             '/library/': [
                 {
