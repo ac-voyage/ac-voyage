@@ -9,4 +9,4 @@ $G' = \langle V', E' \rangle, V' \subseteq V, E' \subseteq E$
 为图 $G$ 的子图.
 
 ### 诱导子图(induced subgraph)
-$G' = \langle V', E' \rangle, V' \subseteq V, E'=\{(u,v)|u,v\in V',(u,v)\in{E}\}$
+$G' = \langle V', E' \rangle, V' \subseteq V, E'=\{(u,v)|u,v\in V',(u,v)\in{E}\}$ 是图 $G$ 的诱导子图.
