@@ -11,6 +11,7 @@ module.exports = {
         ],
         sidebar: {
             '/library/graph/': [
+                [ '/library/graph/', 'Graph' ],
                 [ '/library/graph/tree/prufer', 'Prüfer 序列' ],
                 [ '/library/graph/kirchhoffs-theorem', '基尔霍夫矩阵树' ],
                 [ '/library/graph/shortest-path', '最短路' ],
