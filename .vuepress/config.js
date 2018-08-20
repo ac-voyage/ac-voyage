@@ -15,6 +15,7 @@ module.exports = {
                 [ '/library/graph/tree/prufer', 'Prüfer 序列' ],
                 [ '/library/graph/kirchhoffs-theorem', '基尔霍夫矩阵树' ],
                 [ '/library/graph/shortest-path', '最短路' ],
+                [ '/library/graph/chord', '弦图' ],
             ],
             '/library/': [
                 {
@@ -44,6 +45,7 @@ module.exports = {
                         [ '/library/graph/tree/', '树' ],
                         [ '/library/graph/shortest-path', '最短路' ],
                         [ '/library/graph/kirchhoffs-theorem', '基尔霍夫矩阵树定理' ],
+                        [ '/library/graph/chord', '弦图' ],
                     ],
                 },
             ],
