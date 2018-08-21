@@ -59,6 +59,7 @@ module.exports = {
                 [ '/editorials/bzoj/vol-01/1007', '1007: [HNOI2008]水平可见直线' ],
                 [ '/editorials/bzoj/vol-01/1008', '1008: [HNOI2008]越狱' ],
                 [ '/editorials/bzoj/vol-01/1009', '1009: [HNOI2008]GT考试' ],
+                [ '/editorials/bzoj/vol-01/1010', '1010: [HNOI2008]玩具装箱toy' ],
             ],
             '/editorials/': [
                 {
