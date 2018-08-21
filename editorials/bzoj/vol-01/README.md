@@ -6,3 +6,4 @@
 - [1004: [HNOI2008]Cards](/editorials/bzoj/vol-01/1004.md)
 - [1005: [HNOI2008]明明的烦恼](/editorials/bzoj/vol-01/1005.md)
 - [1006: [HNOI2008]神奇的国度](/editorials/bzoj/vol-01/1006.md)
+- [1007: [HNOI2008]水平可见直线](/editorials/bzoj/vol-01/1007.md)
