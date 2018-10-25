@@ -6,7 +6,7 @@
 
 ### 子图(subgraph)
 $G' = \langle V', E' \rangle, V' \subseteq V, E' \subseteq E$
-为图 $G$ 的子图.
+为图 $G$ 的子图.
 
 ### 诱导子图(induced subgraph)
 $G' = \langle V', E' \rangle, V' \subseteq V, E'=\{(u,v)|u,v\in V',(u,v)\in{E}\}$ 是图 $G$ 的诱导子图.
@@ -18,7 +18,7 @@ $G' = \langle V', E' \rangle, V' \subseteq V, E'=\{(u,v)|u,v\in V',(u,v)\in{E}\}
 团数记为 $\omega(G)$.
 
 #### 极大团(maximal clique)
-一个团是极大团当且仅当他不是其他团的子集.
+一个团是极大团当且仅当他不是其他团的子集.
 
 #### 最大团(maximum clique)
 点数最多的团
