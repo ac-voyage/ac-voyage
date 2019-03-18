@@ -9,8 +9,4 @@ script:
   - yarn build
 
 after_success:
-  - GITHUB_TOKEN=$GITHUB_TOKEN ./deploy.sh
-
-branches:
-  only:
-    - master
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then GITHUB_TOKEN=$GITHUB_TOKEN ./deploy.sh; fi
