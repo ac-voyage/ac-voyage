@@ -10,4 +10,4 @@ script:
 
 after_success:
   - echo $TRAVIS_BRANCH
-  - 'if [ "$TRAVIS_BRANCH" = "master" ]; then GITHUB_TOKEN=$GITHUB_TOKEN ./deploy.sh; fi'
+  - if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then GITHUB_TOKEN=$GITHUB_TOKEN ./deploy.sh; fi
