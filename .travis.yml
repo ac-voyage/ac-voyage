@@ -9,4 +9,5 @@ script:
   - yarn build
 
 after_success:
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then GITHUB_TOKEN=$GITHUB_TOKEN ./deploy.sh; fi
+  - echo $TRAVIS_BRANCH
+  - 'if [ "$TRAVIS_BRANCH" = "master" ]; then GITHUB_TOKEN=$GITHUB_TOKEN ./deploy.sh; fi'
